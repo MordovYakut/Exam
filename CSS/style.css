@@ -42,6 +42,49 @@ body {
     margin-top: 5rem;
 }
 
+.registration{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    line-height: 167%;
+    padding: 3.5rem;
+    align-items: stretch;
+    max-width: 62rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.registration input{
+    padding: 0.85rem 2.8rem 0.85rem 2.8rem;
+    border: solid var(--custom-property-grey) 0.1rem;
+    border-radius: 9rem;
+    margin-bottom: 2.3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.registration p {
+    font-size: 1.8rem;
+}
+
+.send{
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 115%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 9rem;
+    background-color: var(--custom-property-signup);
+    color: var(--custom-property-black);
+    margin-top: 2rem;
+}
+
+.type input {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 5rem 0 0;
+}
+
 a {
     text-decoration: none;
     color: var(--custom-property-white);

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap');
+    </style>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <title>Якушкин Сергей Дмитриевич 211-326 25.01.2023</title>
+</head>
+<body class="wrapper">
+    <header>
+        <div class="header">
+            <a class="menu" href="#">Menu</a>
+            <a class="amedia color" href="#">About</a>
+            <a class="amedia" href="#">Why Begin</a>
+            <a class="amedia" href="#">Features</a>
+            <a class="amedia" href="#">Contact</a>
+            <div class="headerright">
+                <a href="#">Login</a>
+                <a class="sign" href="index.html">SIGN UP</a>
+            </div>
+        </div>
+    </header>
+    <main class="reg">
+        <section  class="margtop">
+            <h1 class="sr-only">Main page</h1>
+            <form class="registration" name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <label>Телефон:<input type="tel" placeholder="+7 (9XX) XXX-XXXX" name="Number" required></label>
+                <label>Имя файла:<input type="text" placeholder="File name" name="File name" required></label>
+                <legend>Вид печати:</legend>
+                <div class="type">
+                    <label>Цифровая:<input type="radio" value="Cifrovaya" name="Type"></label>
+                    <label>Оффсетная:<input type="radio" value="Offset" name="Type"></label>
+                </div>
+                <button class="send buthov" type="submit">Send</button>
+                <button class="send buthov" type="reset">Remove form</button>
+            </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
