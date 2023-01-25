@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap');
+:root {
+    font-size: 62.5%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    
+    --custom-property-white: white;
+    --custom-property-black: black;
+    --custom-property-signup: #1EE1B3;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
