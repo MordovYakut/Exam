@@ -8,6 +8,7 @@
     --custom-property-white: white;
     --custom-property-black: black;
     --custom-property-signup: #1EE1B3;
+    --custom-property-back: #08080C;
 }
 
 .sr-only {
@@ -24,8 +25,173 @@
 }
 
 .wrapper {
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+body {
+    color: var(--custom-property-white);
+    background: var(--custom-property-back);
+    min-width: 42.5rem;
+    width: 100%;
+}
+
+.margtop {
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--custom-property-white);
+}
+
+.mediumh2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.medium {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 1.7rem 0;
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+.amedia {
+    display: none;
+}
+
+.headerright {
+    margin-left: auto;
+    margin-right: 2.2rem;
+    text-align: right;
+}
+
+.headerright a {
+    padding: 1rem;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.main11 {
+    width: 28rem;
+    height: 12rem;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.main22 {
+    width: 28rem;
+    height: 12rem;
+}
+
+section p {
+    font-size: 1.3rem;
+}
+
+.headerright .sign {
+    margin-left: 1.7rem;
+    padding: 1.4rem 2.2rem 1.1rem 3.1rem;
+    color: var(--custom-property-black);
+    background: var(--custom-property-signup);
+    border-radius: 0.5rem;
+    font-weight: 900;
+}
+
+.topleft {
+    margin: 0 2rem auto 0;
+}
+
+.lineh2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 33rem;
+    height: 8rem;
+}
+
+.lineh2 img {
+    text-align: left;
+    margin-top: 4rem;
+    width: 12.6rem;
+}
+
+.phone {
+    margin-top: 6rem;
+}
+
+.phonemed{
+    display: none;
+}
+
+@media all and (min-width: 1600px){
+    .media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .phone {
+        display: none;
+    }
+    .phonemed {
+        display: initial;
+        margin-right: 20rem;
+    }
+    .main11 {
+        width: 48rem;
+    }
+    .main22 {
+        width: 48rem;
+    }
+    section p {
+        font-size: 1.5rem;
+    }
+    .mediumh2 {
+        font-size: 5rem;
+    }
+    .lineh2 {
+        width: 54rem;
+    }
+    .lineh2 img {
+        width: 25rem;
+    }
+}
+
+@media all and (min-width: 1440px){
+    .header {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+    .menu {
+        display: none;
+    }
+    .amedia {
+        display: initial;
+        margin-right: 10rem;
+    }
+    .color {
+        color: var(--custom-property-signup)
+    }
 }

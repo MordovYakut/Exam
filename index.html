@@ -8,43 +8,53 @@
         @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap');
     </style>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="CSS/reset.css">
     <title>Якушкин Сергей Дмитриевич 211-326</title>
 </head>
-<body>
+<body class="wrapper">
     <header>
         <div class="header">
-            <a href="#">Menu</a>
+            <a class="menu" href="#">Menu</a>
+            <a class="amedia color" href="#">About</a>
+            <a class="amedia" href="#">Why Begin</a>
+            <a class="amedia" href="#">Features</a>
+            <a class="amedia" href="#">Contact</a>
             <div class="headerright">
                 <a href="#">Login</a>
-                <a href="#">SIGN UP</a>
+                <a class="sign" href="#">SIGN UP</a>
             </div>
         </div>
     </header>
     <main>
-        <section>
+        <section class="margtop">
             <h1 class="sr-only">Main page</h1>
-            <h2>EVERYTHING YOU NEED!</h2>
-            <hr>
-            <div class="main1">
-                <img src="SVG/Main1.svg" alt="">
-                <div class="main11">
-                    <p>Body measurement tracking</p>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi </p>
+            <div class="media">   
+                <img class="phonemed" src="PNG/Phonemed.png" alt="Phone">
+                <div class="mediacolumn">
+                    <div class="lineh2">
+                        <h2 class="mediumh2">EVERYTHING YOU NEED!</h2>
+                        <img class="line" src="SVG/Line.svg" alt="Line">
+                    </div>
+                    <div class="main1">
+                        <img class="topleft" src="SVG/Main1.svg" alt="Main1">
+                        <div class="main11">
+                            <h3 class="medium">Body measurement tracking</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi </p>
+                        </div>
+                    </div>
+                    <div class="main2">
+                        <img class="topleft" src="SVG/Main2.svg" alt="Main2">
+                        <div class="main22">
+                            <h3 class="medium">In home trial of clothes and closet</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi </p>    
+                        </div>
+                    </div>
                 </div>
+                <img class="phone" src="PNG/Phone.png" alt="Phone">
             </div>
-            <div class="main2">
-                <img src="SVG/Main2.svg" alt="">
-                <div class="main22">
-                    <p>In home trial of clothes and closet</p>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi </p>    
-                </div>
-            </div>
-            <img class="phone" src="PNG/Phone.png" alt="">
         </section>
     </main>
     <footer>
-
     </footer>
 </body>
 </html>
