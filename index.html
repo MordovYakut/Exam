@@ -20,8 +20,8 @@
             <a class="amedia" href="#">Features</a>
             <a class="amedia" href="#">Contact</a>
             <div class="headerright">
-                <a class="dmenu" href="#">Login</a>
-                <a class="sign" href="form.html">SIGN UP</a>
+                <a class="dmenu" href="form.html">Login</a>
+                <a class="sign openModal" href="#">SIGN UP</a>
             </div>
         </div>
     </header>
@@ -53,8 +53,20 @@
                 <img class="phone" src="PNG/Phone.png" alt="Phone">
             </div>
         </section>
+        <dialog class="modal">
+            <form class="registration" id="form">
+                <legend class="dialogname">Registration</legend>
+                <label><input id="mail" type="email" placeholder="Email" name="Email" required></label>
+                <label><input type="password" placeholder="Password" name="Password" id="pass" minlength="6" required></label>
+                <div ><span id="error"></span></div>
+                <button class="send checkPass" type="button">Check password</button>
+                <button class="send submit" type="submit">Send</button>
+                <button class="send closeModal">Close</button>
+            </form>
+        </dialog>
     </main>
     <footer>
     </footer>
+    <script src="JS/main.js"></script>
 </body>
 </html>
